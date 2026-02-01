@@ -127,7 +127,7 @@ export default function Footer() {
         <div className="py-8 border-t border-gray-800">
           <div className="flex flex-col sm:flex-row justify-between items-center gap-4">
             <div className="text-gray-400 text-sm">
-              2024 Bella Studio. Todos os direitos reservados.
+              2024 Autoestima | Todos os direitos reservados.
             </div>
             <div className="flex gap-6 text-sm">
               <a href="#" className="text-gray-400 hover:text-pink-400 transition-colors">
