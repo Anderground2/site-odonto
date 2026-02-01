@@ -42,7 +42,7 @@ export default function Footer() {
                 <Sparkles className="w-6 h-6 text-white" />
               </div>
               <span className="text-2xl font-bold">
-                <span className="bg-gradient-to-r from-rose-400 to-pink-500 bg-clip-text text-transparent">Bella</span> Studio
+                <span className="bg-gradient-to-r from-rose-400 to-pink-500 bg-clip-text text-transparent">Autoestima</span>
               </span>
             </a>
             <p className="text-gray-400 mb-6 leading-relaxed">
