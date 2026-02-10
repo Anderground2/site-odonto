@@ -10,8 +10,8 @@ export default function Hero() {
           alt="Salao de beleza"
           className="w-full h-full object-cover"
         />
-        <div className="absolute inset-0 bg-gradient-to-r from-black/70 via-black/50 to-transparent" />
-        <div className="absolute inset-0 bg-gradient-to-t from-pink-900/30 to-transparent" />
+        <div className="absolute inset-0 bg-linear-to-r from-black/70 via-black/50 to-transparent" />
+        <div className="absolute inset-0 bg-linear-to-t from-pink-900/30 to-transparent" />
       </div>
       
       <div className="absolute inset-0 overflow-hidden">
@@ -53,11 +53,11 @@ export default function Hero() {
             >
               Onde a{' '}
               <span className="relative inline-block">
-                <span className="relative z-10 bg-gradient-to-r from-rose-400 to-pink-500 bg-clip-text text-transparent">
+                <span className="relative z-10 bg-linear-to-r from-rose-400 to-pink-500 bg-clip-text text-transparent">
                   beleza
                 </span>
                 <motion.span 
-                  className="absolute -bottom-1 left-0 w-full h-3 bg-gradient-to-r from-rose-400/40 to-pink-500/40 rounded"
+                  className="absolute -bottom-1 left-0 w-full h-3 bg-linear-to-r from-rose-400/40 to-pink-500/40 rounded"
                   initial={{ scaleX: 0 }}
                   animate={{ scaleX: 1 }}
                   transition={{ delay: 0.8, duration: 0.5 }}
@@ -84,7 +84,7 @@ export default function Hero() {
             >
               <motion.a
                 href="#agendamento"
-                className="group px-8 py-4 bg-gradient-to-r from-rose-400 to-pink-600 text-white font-bold rounded-full shadow-2xl shadow-pink-500/30 flex items-center justify-center gap-2"
+                className="group px-8 py-4 bg-linear-to-r from-rose-400 to-pink-600 text-white font-bold rounded-full shadow-2xl shadow-pink-500/30 flex items-center justify-center gap-2"
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
               >
@@ -137,7 +137,7 @@ export default function Hero() {
                 transition={{ duration: 3, repeat: Infinity }}
               >
                 <div className="flex items-center gap-3">
-                  <div className="w-12 h-12 bg-gradient-to-r from-rose-400 to-pink-500 rounded-full flex items-center justify-center">
+                  <div className="w-12 h-12 bg-linear-to-r from-rose-400 to-pink-500 rounded-full flex items-center justify-center">
                     <Heart className="w-6 h-6 text-white" />
                   </div>
                   <div>
@@ -172,13 +172,13 @@ export default function Hero() {
                 </div>
               </motion.div>
 
-              <div className="relative aspect-[3/4] rounded-3xl overflow-hidden shadow-2xl">
+              <div className="relative aspect-3/4 rounded-3xl overflow-hidden shadow-2xl">
                 <img 
                   src="https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?w=600&q=80"
                   alt="Modelo salao"
                   className="w-full h-full object-cover"
                 />
-                <div className="absolute inset-0 bg-gradient-to-t from-pink-600/30 to-transparent" />
+                <div className="absolute inset-0 bg-linear-to-t from-pink-600/30 to-transparent" />
               </div>
             </div>
           </motion.div>

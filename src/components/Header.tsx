@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react'
 import { motion, AnimatePresence } from 'framer-motion'
-import { Menu, X, Stethoscope} from 'lucide-react'
+import { Menu, X, Sparkles} from 'lucide-react'
 
 const navLinks = [
   { name: 'Inicio', href: '#inicio' },
@@ -42,7 +42,7 @@ export default function Header() {
             whileHover={{ scale: 1.05 }}
           >
             <div className="w-10 h-10 rounded-full bg-linear-to-r from-rose-400 to-pink-600 flex items-center justify-center">
-              <Stethoscope className="w-6 h-6 text-white" />
+              <Sparkles className="w-6 h-6 text-white" />
             </div>
             <span className={`text-2xl font-bold ${isScrolled ? 'text-gradient' : 'text-white'}`}>
               Autoestima

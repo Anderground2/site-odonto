@@ -32,17 +32,17 @@ export default function Footer() {
 
   return (
     <footer id="contato" className="bg-gray-900 text-white relative">
-      <div className="absolute inset-0 bg-gradient-to-b from-pink-950/20 to-transparent pointer-events-none" />
+      <div className="absolute inset-0 bg-linear-to-b from-pink-950/20 to-transparent pointer-events-none" />
       
       <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="py-16 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12">
           <div className="lg:col-span-1">
             <a href="#inicio" className="flex items-center gap-3 mb-6">
-              <div className="w-12 h-12 bg-gradient-to-r from-rose-400 to-pink-600 rounded-xl flex items-center justify-center">
+              <div className="w-12 h-12 bg-linear-to-r from-rose-400 to-pink-600 rounded-xl flex items-center justify-center">
                 <Sparkles className="w-6 h-6 text-white" />
               </div>
               <span className="text-2xl font-bold">
-                <span className="bg-gradient-to-r from-rose-400 to-pink-500 bg-clip-text text-transparent">Bella</span> Studio
+                <span className="bg-linear-to-r from-rose-400 to-pink-500 bg-clip-text text-transparent">Autoestima</span>
               </span>
             </a>
             <p className="text-gray-400 mb-6 leading-relaxed">
@@ -118,7 +118,7 @@ export default function Footer() {
               </li>
               <li className="flex items-center gap-3">
                 <Mail className="w-5 h-5 text-pink-400 shrink-0" />
-                <span className="text-gray-400">contato@bellastudio.com</span>
+                <span className="text-gray-400">contato@Autoestima.com</span>
               </li>
             </ul>
           </div>
@@ -127,7 +127,7 @@ export default function Footer() {
         <div className="py-8 border-t border-gray-800">
           <div className="flex flex-col sm:flex-row justify-between items-center gap-4">
             <div className="text-gray-400 text-sm">
-              2024 Bella Studio. Todos os direitos reservados.
+              2024 Autoestima | Todos os direitos reservados.
             </div>
             <div className="flex gap-6 text-sm">
               <a href="#" className="text-gray-400 hover:text-pink-400 transition-colors">
@@ -143,7 +143,7 @@ export default function Footer() {
 
       <motion.a
         href="#inicio"
-        className="fixed bottom-8 right-8 w-12 h-12 bg-gradient-to-r from-rose-400 to-pink-600 rounded-full flex items-center justify-center shadow-lg shadow-pink-500/30 z-50"
+        className="fixed bottom-8 right-8 w-12 h-12 bg-linear-to-r from-rose-400 to-pink-600 rounded-full flex items-center justify-center shadow-lg shadow-pink-500/30 z-50"
         whileHover={{ scale: 1.1 }}
         whileTap={{ scale: 0.9 }}
       >
