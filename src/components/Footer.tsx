@@ -41,9 +41,9 @@ export default function Footer() {
               <div className="w-12 h-12 bg-linear-to-r from-rose-400 to-pink-600 rounded-xl flex items-center justify-center">
                 <Sparkles className="w-6 h-6 text-white" />
               </div>
-              <span className="text-2xl font-bold">
-                <span className="bg-linear-to-r from-rose-400 to-pink-500 bg-clip-text text-transparent">Autoestima</span>
-              </span>
+<span className="text-2xl font-bold">
+  <span className="bg-linear-to-r from-rose-400 to-pink-500 bg-clip-text text-transparent">Autoestima</span>
+</span>
             </a>
             <p className="text-gray-400 mb-6 leading-relaxed">
               Transformando beleza e elevando autoestima. Venha viver uma experiencia unica de cuidado pessoal.
